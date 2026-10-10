@@ -1,0 +1,141 @@
+{
+  "id": "quiz-C17",
+  "topicId": "C17",
+  "questions": [
+    {
+      "id": "C17-Q1",
+      "kind": "understanding",
+      "prompt": "Какую группу содержит уксусная кислота?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Только –OH без соседней C=O"
+        },
+        {
+          "id": "o2",
+          "text": "–COOH"
+        },
+        {
+          "id": "o3",
+          "text": "Только C=C"
+        },
+        {
+          "id": "o4",
+          "text": "Только –NH₂"
+        }
+      ],
+      "correctOptionId": "o2",
+      "explanation": "Уксусная кислота CH₃COOH содержит карбоксильную группу.",
+      "lessonAnchor": "карбоновые-кислоты",
+      "sourceUrl": "https://openstax.org/books/chemistry-2e/pages/20-3-aldehydes-ketones-carboxylic-acids-and-esters"
+    },
+    {
+      "id": "C17-Q2",
+      "kind": "understanding",
+      "prompt": "Какая пара классов в простом случае образует сложный эфир и воду?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Два алкана"
+        },
+        {
+          "id": "o2",
+          "text": "Спирт и щёлочь"
+        },
+        {
+          "id": "o3",
+          "text": "Карбоновая кислота и спирт"
+        },
+        {
+          "id": "o4",
+          "text": "Карбоновая кислота и карбонат"
+        }
+      ],
+      "correctOptionId": "o3",
+      "explanation": "Этерификация — реакция карбоновой кислоты со спиртом.",
+      "lessonAnchor": "сложные-эфиры",
+      "sourceUrl": "https://openstax.org/books/chemistry-2e/pages/20-3-aldehydes-ketones-carboxylic-acids-and-esters"
+    },
+    {
+      "id": "C17-Q3",
+      "kind": "application",
+      "prompt": "К какому классу относится CH₃CH₂OH?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "К карбоновым кислотам"
+        },
+        {
+          "id": "o2",
+          "text": "К сложным эфирам"
+        },
+        {
+          "id": "o3",
+          "text": "К щелочам типа NaOH"
+        },
+        {
+          "id": "o4",
+          "text": "К спиртам"
+        }
+      ],
+      "correctOptionId": "o4",
+      "explanation": "Этанол имеет спиртовую гидроксильную группу при насыщенном углероде.",
+      "lessonAnchor": "спирты",
+      "sourceUrl": "https://openstax.org/books/chemistry-2e/pages/20-2-alcohols-and-ethers"
+    },
+    {
+      "id": "C17-Q4",
+      "kind": "application",
+      "prompt": "В схеме CH₃COOH + C₂H₅OH ⇌ CH₃COOC₂H₅ + … какое вещество пропущено?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "H₂O"
+        },
+        {
+          "id": "o2",
+          "text": "H₂"
+        },
+        {
+          "id": "o3",
+          "text": "CO₂"
+        },
+        {
+          "id": "o4",
+          "text": "O₂"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "При этерификации наряду со сложным эфиром образуется вода.",
+      "lessonAnchor": "разобранный-пример",
+      "sourceUrl": "https://openstax.org/books/chemistry-2e/pages/20-3-aldehydes-ketones-carboxylic-acids-and-esters"
+    },
+    {
+      "id": "C17-Q5",
+      "kind": "misconception",
+      "prompt": "Группа –OH в этаноле означает, что он является щёлочью как NaOH?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Да, любая группа –OH делает вещество щёлочью"
+        },
+        {
+          "id": "o2",
+          "text": "Нет, ковалентная группа в спирте отличается от OH⁻ в щёлочи"
+        },
+        {
+          "id": "o3",
+          "text": "Да, этанол содержит свободные OH⁻ так же, как NaOH"
+        },
+        {
+          "id": "o4",
+          "text": "Нет, потому что все вещества с углеродом являются кислотами"
+        }
+      ],
+      "correctOptionId": "o2",
+      "explanation": "Одинаковые символы не заменяют анализа строения: группа спирта не является свободным гидроксид-ионом.",
+      "lessonAnchor": "спирты",
+      "sourceUrl": "https://openstax.org/books/chemistry-2e/pages/20-2-alcohols-and-ethers"
+    }
+  ]
+}

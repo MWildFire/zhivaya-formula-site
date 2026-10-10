@@ -1,0 +1,8 @@
+---
+import Base from '../../layouts/Base.astro';
+import TopicCard from '../../components/TopicCard.astro';
+import Filters from '../../components/Filters.astro';
+import { allLessons } from '../../lib/catalog';
+const lessons=await allLessons();
+---
+<Base title="Тесты" description="36 коротких тестов по химии и биологии. По пять вопросов с понятными объяснениями, без таймера и регистрации."><section class="catalog-intro tests-intro"><div class="container"><p class="eyebrow">Не на оценку. Для себя.</p><h1>Проверим, что запомнилось?</h1><p>36 коротких тестов. Пять вопросов в каждом — и объяснение, которое поможет разобраться.</p></div></section><section class="container section catalog"><Filters subject /><noscript><p class="notice">Каталог доступен полностью. Для прохождения тестов включи JavaScript.</p></noscript><div class="card-grid">{lessons.map(l=><TopicCard lesson={l.data} test />)}</div></section></Base>

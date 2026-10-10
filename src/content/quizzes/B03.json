@@ -1,0 +1,141 @@
+{
+  "id": "quiz-B03",
+  "topicId": "B03",
+  "questions": [
+    {
+      "id": "B03-Q1",
+      "kind": "understanding",
+      "prompt": "Какой структуры нет у бактерий?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Клеточной мембраны"
+        },
+        {
+          "id": "o2",
+          "text": "ДНК"
+        },
+        {
+          "id": "o3",
+          "text": "Рибосом"
+        },
+        {
+          "id": "o4",
+          "text": "Оформленного ядра с оболочкой"
+        }
+      ],
+      "correctOptionId": "o4",
+      "explanation": "Бактерии — прокариоты: их ДНК не отделена ядерной оболочкой.",
+      "lessonAnchor": "бактериальная-клетка",
+      "sourceUrl": "https://openstax.org/books/biology-2e/pages/22-2-structure-of-prokaryotes-bacteria-and-archaea"
+    },
+    {
+      "id": "B03-Q2",
+      "kind": "understanding",
+      "prompt": "Что общего у бактерии и одноклеточного эукариота?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Они могут состоять из одной клетки"
+        },
+        {
+          "id": "o2",
+          "text": "Оба обязательно имеют ядро"
+        },
+        {
+          "id": "o3",
+          "text": "Оба обязательно фотосинтезируют"
+        },
+        {
+          "id": "o4",
+          "text": "Оба обязательно вызывают болезни"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "Оба организма могут быть одноклеточными, но устройство клетки различается.",
+      "lessonAnchor": "роль-в-природе",
+      "sourceUrl": "https://openstax.org/books/biology-2e/pages/23-2-characteristics-of-protists"
+    },
+    {
+      "id": "B03-Q3",
+      "kind": "application",
+      "prompt": "Организм имеет одну клетку, ядро и реснички. К какой группе он относится?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "К бактериям"
+        },
+        {
+          "id": "o2",
+          "text": "К одноклеточным эукариотам"
+        },
+        {
+          "id": "o3",
+          "text": "К многоклеточным растениям"
+        },
+        {
+          "id": "o4",
+          "text": "К прокариотам"
+        }
+      ],
+      "correctOptionId": "o2",
+      "explanation": "Наличие оформленного ядра указывает на эукариотическое строение.",
+      "lessonAnchor": "разобранный-пример",
+      "sourceUrl": "https://openstax.org/books/biology-2e/pages/23-2-characteristics-of-protists"
+    },
+    {
+      "id": "B03-Q4",
+      "kind": "application",
+      "prompt": "Микроорганизмы разлагают опавшие листья. В чём их роль?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Заменяют фотосинтез созданием органики из света"
+        },
+        {
+          "id": "o2",
+          "text": "Только перемещают листья, не изменяя их вещества"
+        },
+        {
+          "id": "o3",
+          "text": "Возвращают вещества в круговорот"
+        },
+        {
+          "id": "o4",
+          "text": "Навсегда выводят все минеральные вещества из экосистемы"
+        }
+      ],
+      "correctOptionId": "o3",
+      "explanation": "Разложение переводит органические остатки в формы, участвующие в дальнейшем круговороте.",
+      "lessonAnchor": "роль-в-природе",
+      "sourceUrl": "https://openstax.org/books/biology-2e/pages/22-5-beneficial-prokaryotes"
+    },
+    {
+      "id": "B03-Q5",
+      "kind": "misconception",
+      "prompt": "Все ли бактерии вредны человеку и природе?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Да, их основная роль всегда состоит в заражении"
+        },
+        {
+          "id": "o2",
+          "text": "Да, если они живут рядом с человеком"
+        },
+        {
+          "id": "o3",
+          "text": "Нет, ни один вид бактерий не вызывает заболеваний"
+        },
+        {
+          "id": "o4",
+          "text": "Нет, многие выполняют полезные функции"
+        }
+      ],
+      "correctOptionId": "o4",
+      "explanation": "Есть болезнетворные бактерии, но множество видов участвует в разложении, симбиозе и пищевых технологиях.",
+      "lessonAnchor": "роль-в-природе",
+      "sourceUrl": "https://openstax.org/books/biology-2e/pages/22-5-beneficial-prokaryotes"
+    }
+  ]
+}

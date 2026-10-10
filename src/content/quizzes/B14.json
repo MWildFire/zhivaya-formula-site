@@ -1,0 +1,141 @@
+{
+  "id": "quiz-B14",
+  "topicId": "B14",
+  "questions": [
+    {
+      "id": "B14-Q1",
+      "kind": "understanding",
+      "prompt": "Какое основание комплементарно A в ДНК?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "G"
+        },
+        {
+          "id": "o2",
+          "text": "C"
+        },
+        {
+          "id": "o3",
+          "text": "T"
+        },
+        {
+          "id": "o4",
+          "text": "U"
+        }
+      ],
+      "correctOptionId": "o3",
+      "explanation": "В обычной двойной спирали ДНК аденин A образует пару с тимином T.",
+      "lessonAnchor": "запись-в-днк",
+      "sourceUrl": "https://openstax.org/books/biology-2e/pages/14-2-dna-structure-and-sequencing"
+    },
+    {
+      "id": "B14-Q2",
+      "kind": "understanding",
+      "prompt": "Каково типичное назначение митоза?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Уменьшение набора хромосом вдвое"
+        },
+        {
+          "id": "o2",
+          "text": "Создание новых аллелей по потребности клетки"
+        },
+        {
+          "id": "o3",
+          "text": "Удвоение числа хромосом у каждого потомка в каждом цикле"
+        },
+        {
+          "id": "o4",
+          "text": "Рост и обновление с сохранением набора хромосом"
+        }
+      ],
+      "correctOptionId": "o4",
+      "explanation": "Митоз распределяет копии хромосом и обычно сохраняет набор в дочерних ядрах.",
+      "lessonAnchor": "подготовка-и-митоз",
+      "sourceUrl": "https://openstax.org/books/biology-2e/pages/11-1-the-process-of-meiosis"
+    },
+    {
+      "id": "B14-Q3",
+      "kind": "application",
+      "prompt": "Исходная клетка имеет 2n = 4. Сколько хромосом в каждом ядре после обычного митоза?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "4"
+        },
+        {
+          "id": "o2",
+          "text": "2"
+        },
+        {
+          "id": "o3",
+          "text": "8"
+        },
+        {
+          "id": "o4",
+          "text": "1"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "Митоз сохраняет набор: удвоенные копии распределяются между дочерними ядрами.",
+      "lessonAnchor": "разобранный-пример",
+      "sourceUrl": "https://openstax.org/books/biology-2e/pages/11-1-the-process-of-meiosis"
+    },
+    {
+      "id": "B14-Q4",
+      "kind": "application",
+      "prompt": "При 2n = 4 какой набор образуется после нормального мейоза?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "n = 8"
+        },
+        {
+          "id": "o2",
+          "text": "n = 2"
+        },
+        {
+          "id": "o3",
+          "text": "2n = 4 в каждом продукте"
+        },
+        {
+          "id": "o4",
+          "text": "n = 0"
+        }
+      ],
+      "correctOptionId": "o2",
+      "explanation": "Мейоз уменьшает число наборов вдвое: из диплоидного 4 получается гаплоидный 2.",
+      "lessonAnchor": "разобранный-пример",
+      "sourceUrl": "https://openstax.org/books/biology-2e/pages/11-1-the-process-of-meiosis"
+    },
+    {
+      "id": "B14-Q5",
+      "kind": "misconception",
+      "prompt": "Во время синтеза белка сама молекула ДНК превращается в белковую цепь?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Да, нуклеотиды становятся аминокислотами напрямую"
+        },
+        {
+          "id": "o2",
+          "text": "Да, ДНК полностью исчезает после каждого белка"
+        },
+        {
+          "id": "o3",
+          "text": "Нет, информация считывается, а белок собирается из аминокислот"
+        },
+        {
+          "id": "o4",
+          "text": "Нет, белки вообще не связаны с генами"
+        }
+      ],
+      "correctOptionId": "o3",
+      "explanation": "Схема ДНК → РНК → белок описывает передачу информации, а не физическое превращение одной молекулы в другую.",
+      "lessonAnchor": "от-гена-к-белку",
+      "sourceUrl": "https://openstax.org/books/biology-2e/pages/14-2-dna-structure-and-sequencing"
+    }
+  ]
+}

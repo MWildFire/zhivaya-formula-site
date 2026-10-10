@@ -1,0 +1,141 @@
+{
+  "id": "quiz-B07",
+  "topicId": "B07",
+  "questions": [
+    {
+      "id": "B07-Q1",
+      "kind": "understanding",
+      "prompt": "Какой признак характерен для членистоногих?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Внутренний костный скелет"
+        },
+        {
+          "id": "o2",
+          "text": "Мантия и мускулистая нога"
+        },
+        {
+          "id": "o3",
+          "text": "Мягкое сегментированное тело без членистых конечностей"
+        },
+        {
+          "id": "o4",
+          "text": "Членистые конечности и наружный скелет"
+        }
+      ],
+      "correctOptionId": "o4",
+      "explanation": "Членистые конечности и хитиновый наружный покров — характерное сочетание признаков группы.",
+      "lessonAnchor": "членистоногие",
+      "sourceUrl": "https://openstax.org/books/biology-2e/pages/28-6-superphylum-ecdysozoa-arthropods"
+    },
+    {
+      "id": "B07-Q2",
+      "kind": "understanding",
+      "prompt": "Какую часть тела моллюска называют мантией?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Складку, покрывающую часть тела"
+        },
+        {
+          "id": "o2",
+          "text": "Мускулистую ногу"
+        },
+        {
+          "id": "o3",
+          "text": "Твёрдую раковину"
+        },
+        {
+          "id": "o4",
+          "text": "Тёрку с зубчиками"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "Мантия — характерная складка тела моллюска; у многих видов она выделяет раковину.",
+      "lessonAnchor": "моллюски",
+      "sourceUrl": "https://openstax.org/books/biology-2e/pages/28-4-superphylum-lophotrochozoa-molluscs-and-annelids"
+    },
+    {
+      "id": "B07-Q3",
+      "kind": "application",
+      "prompt": "У взрослого животного четыре пары ходильных ног. Какая группа подходит лучше из перечисленных?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Насекомые"
+        },
+        {
+          "id": "o2",
+          "text": "Паукообразные"
+        },
+        {
+          "id": "o3",
+          "text": "Двустворчатые моллюски"
+        },
+        {
+          "id": "o4",
+          "text": "Кольчатые черви"
+        }
+      ],
+      "correctOptionId": "o2",
+      "explanation": "У паукообразных четыре пары ходильных ног, у насекомых — три.",
+      "lessonAnchor": "разобранный-пример",
+      "sourceUrl": "https://openstax.org/books/biology-2e/pages/28-6-superphylum-ecdysozoa-arthropods"
+    },
+    {
+      "id": "B07-Q4",
+      "kind": "application",
+      "prompt": "Зачем членистоногим линька?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Чтобы постепенно перейти к внутреннему костному скелету"
+        },
+        {
+          "id": "o2",
+          "text": "Чтобы прекратить рост после смены покрова"
+        },
+        {
+          "id": "o3",
+          "text": "Она позволяет расти при наличии жёсткого наружного покрова"
+        },
+        {
+          "id": "o4",
+          "text": "Чтобы заменить не покров, а только мышцы"
+        }
+      ],
+      "correctOptionId": "o3",
+      "explanation": "Жёсткий покров ограничивает рост, поэтому периодически заменяется.",
+      "lessonAnchor": "членистоногие",
+      "sourceUrl": "https://openstax.org/books/biology-2e/pages/28-6-superphylum-ecdysozoa-arthropods"
+    },
+    {
+      "id": "B07-Q5",
+      "kind": "misconception",
+      "prompt": "Осьминог не имеет обычной наружной раковины. Значит, он не моллюск?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Да, наружная раковина обязательна у всех моллюсков"
+        },
+        {
+          "id": "o2",
+          "text": "Да, классификация зависит только от наличия раковины"
+        },
+        {
+          "id": "o3",
+          "text": "Нет, потому что отсутствие позвоночника автоматически делает животное моллюском"
+        },
+        {
+          "id": "o4",
+          "text": "Нет, раковина у моллюсков может быть редуцирована"
+        }
+      ],
+      "correctOptionId": "o4",
+      "explanation": "Классификация опирается на общий план и происхождение; наружная раковина не обязательна у всех моллюсков.",
+      "lessonAnchor": "моллюски",
+      "sourceUrl": "https://openstax.org/books/biology-2e/pages/28-4-superphylum-lophotrochozoa-molluscs-and-annelids"
+    }
+  ]
+}

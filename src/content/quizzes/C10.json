@@ -1,0 +1,141 @@
+{
+  "id": "quiz-C10",
+  "topicId": "C10",
+  "questions": [
+    {
+      "id": "C10-Q1",
+      "kind": "understanding",
+      "prompt": "Что стоит в знаменателе формулы массовой доли растворённого вещества?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Только масса воды"
+        },
+        {
+          "id": "o2",
+          "text": "Только масса соли"
+        },
+        {
+          "id": "o3",
+          "text": "Масса всего раствора"
+        },
+        {
+          "id": "o4",
+          "text": "Объём сосуда"
+        }
+      ],
+      "correctOptionId": "o3",
+      "explanation": "Массовая доля сравнивает массу компонента с общей массой раствора.",
+      "lessonAnchor": "массовая-доля",
+      "sourceUrl": "https://openstax.org/books/chemistry-2e/pages/3-4-other-units-for-solution-concentrations"
+    },
+    {
+      "id": "C10-Q2",
+      "kind": "understanding",
+      "prompt": "Что происходит с частицами сахара при его растворении в воде?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Они оседают на дне, хотя раствор выглядит однородным"
+        },
+        {
+          "id": "o2",
+          "text": "Они превращаются в молекулы воды"
+        },
+        {
+          "id": "o3",
+          "text": "Они образуют крупные частицы, задерживаемые бумажным фильтром"
+        },
+        {
+          "id": "o4",
+          "text": "Они распределяются среди частиц растворителя"
+        }
+      ],
+      "correctOptionId": "o4",
+      "explanation": "Растворение распределяет частицы; исчезновение видимых кристаллов не означает исчезновения вещества.",
+      "lessonAnchor": "из-чего-состоит-раствор",
+      "sourceUrl": "https://openstax.org/books/chemistry-2e/pages/11-1-the-dissolution-process"
+    },
+    {
+      "id": "C10-Q3",
+      "kind": "application",
+      "prompt": "10 г соли растворили в 90 г воды без потерь. Какова массовая доля соли?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "10%"
+        },
+        {
+          "id": "o2",
+          "text": "11,1%"
+        },
+        {
+          "id": "o3",
+          "text": "90%"
+        },
+        {
+          "id": "o4",
+          "text": "1%"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "Масса раствора равна 100 г, поэтому 10 / 100 × 100% = 10%.",
+      "lessonAnchor": "массовая-доля",
+      "sourceUrl": "https://openstax.org/books/chemistry-2e/pages/3-4-other-units-for-solution-concentrations"
+    },
+    {
+      "id": "C10-Q4",
+      "kind": "application",
+      "prompt": "К 200 г 5%-го раствора соли добавили 50 г воды. Какова новая доля?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "5%"
+        },
+        {
+          "id": "o2",
+          "text": "4%"
+        },
+        {
+          "id": "o3",
+          "text": "25%"
+        },
+        {
+          "id": "o4",
+          "text": "6,25%"
+        }
+      ],
+      "correctOptionId": "o2",
+      "explanation": "Соли 10 г, раствора стало 250 г: 10 / 250 × 100% = 4%.",
+      "lessonAnchor": "разобранный-пример",
+      "sourceUrl": "https://openstax.org/books/chemistry-2e/pages/3-4-other-units-for-solution-concentrations"
+    },
+    {
+      "id": "C10-Q5",
+      "kind": "misconception",
+      "prompt": "Насыщенный раствор всегда содержит очень большую массовую долю вещества?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Да, насыщение означает преобладание растворённого вещества по массе"
+        },
+        {
+          "id": "o2",
+          "text": "Да, насыщение наступает только при равных массах воды и вещества"
+        },
+        {
+          "id": "o3",
+          "text": "Нет, предел зависит от растворимости вещества"
+        },
+        {
+          "id": "o4",
+          "text": "Нет, насыщенным называют только раствор без осадка независимо от состава"
+        }
+      ],
+      "correctOptionId": "o3",
+      "explanation": "Малорастворимое вещество достигает насыщения уже при небольшой концентрации.",
+      "lessonAnchor": "разбавление-и-насыщение",
+      "sourceUrl": "https://openstax.org/books/chemistry-2e/pages/11-3-solubility"
+    }
+  ]
+}

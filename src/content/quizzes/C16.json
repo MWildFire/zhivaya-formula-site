@@ -1,0 +1,141 @@
+{
+  "id": "quiz-C16",
+  "topicId": "C16",
+  "questions": [
+    {
+      "id": "C16-Q1",
+      "kind": "understanding",
+      "prompt": "Какой состав обязателен для углеводорода?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Только углерод и водород"
+        },
+        {
+          "id": "o2",
+          "text": "Углерод, водород и обязательно кислород"
+        },
+        {
+          "id": "o3",
+          "text": "Любые элементы при обязательном наличии углерода"
+        },
+        {
+          "id": "o4",
+          "text": "Углерод и кислород без водорода"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "По определению углеводороды состоят исключительно из C и H.",
+      "lessonAnchor": "что-называют-углеводородом",
+      "sourceUrl": "https://openstax.org/books/chemistry-2e/pages/20-1-hydrocarbons"
+    },
+    {
+      "id": "C16-Q2",
+      "kind": "understanding",
+      "prompt": "Какая связь характерна для алкенов?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Только одинарные связи C–C"
+        },
+        {
+          "id": "o2",
+          "text": "Двойная C=C"
+        },
+        {
+          "id": "o3",
+          "text": "Тройная связь C≡C"
+        },
+        {
+          "id": "o4",
+          "text": "Ионная связь между атомами углерода"
+        }
+      ],
+      "correctOptionId": "o2",
+      "explanation": "Алкены содержат двойную связь между атомами углерода.",
+      "lessonAnchor": "одинарные-и-кратные-связи",
+      "sourceUrl": "https://openstax.org/books/chemistry-2e/pages/20-1-hydrocarbons"
+    },
+    {
+      "id": "C16-Q3",
+      "kind": "application",
+      "prompt": "К какому классу относится CH₃–CH₃?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "К алкенам"
+        },
+        {
+          "id": "o2",
+          "text": "К алкинам"
+        },
+        {
+          "id": "o3",
+          "text": "К алканам"
+        },
+        {
+          "id": "o4",
+          "text": "К карбоновым кислотам"
+        }
+      ],
+      "correctOptionId": "o3",
+      "explanation": "В этане C₂H₆ между углеродами одинарная связь; это алкан.",
+      "lessonAnchor": "разобранный-пример",
+      "sourceUrl": "https://openstax.org/books/chemistry-2e/pages/20-1-hydrocarbons"
+    },
+    {
+      "id": "C16-Q4",
+      "kind": "application",
+      "prompt": "Две разные структуры имеют формулу C₄H₁₀. Как их называют?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Изотопами"
+        },
+        {
+          "id": "o2",
+          "text": "Двумя записями одного и того же строения"
+        },
+        {
+          "id": "o3",
+          "text": "Ионами одного вещества"
+        },
+        {
+          "id": "o4",
+          "text": "Изомерами"
+        }
+      ],
+      "correctOptionId": "o4",
+      "explanation": "Изомеры совпадают по молекулярной формуле, но различаются строением.",
+      "lessonAnchor": "строение-и-изомеры",
+      "sourceUrl": "https://openstax.org/books/chemistry-2e/pages/20-1-hydrocarbons"
+    },
+    {
+      "id": "C16-Q5",
+      "kind": "misconception",
+      "prompt": "Любое органическое вещество является углеводородом?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Нет, органическое вещество может содержать кислород и другие элементы"
+        },
+        {
+          "id": "o2",
+          "text": "Да, эти слова полностью равнозначны"
+        },
+        {
+          "id": "o3",
+          "text": "Да, если оно получено в лаборатории"
+        },
+        {
+          "id": "o4",
+          "text": "Нет, углеводороды вообще не органические"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "Этанол органический, но содержит кислород, поэтому не относится к углеводородам.",
+      "lessonAnchor": "что-называют-углеводородом",
+      "sourceUrl": "https://openstax.org/books/chemistry-2e/pages/20-2-alcohols-and-ethers"
+    }
+  ]
+}

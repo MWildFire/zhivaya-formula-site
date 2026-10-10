@@ -1,0 +1,141 @@
+{
+  "id": "quiz-C09",
+  "topicId": "C09",
+  "questions": [
+    {
+      "id": "C09-Q1",
+      "kind": "understanding",
+      "prompt": "Что измеряют в молях?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Плотность"
+        },
+        {
+          "id": "o2",
+          "text": "Количество вещества"
+        },
+        {
+          "id": "o3",
+          "text": "Температуру"
+        },
+        {
+          "id": "o4",
+          "text": "Длину молекулы"
+        }
+      ],
+      "correctOptionId": "o2",
+      "explanation": "Моль — единица количества вещества, связанного с числом указанных частиц.",
+      "lessonAnchor": "счёт-огромными-порциями",
+      "sourceUrl": "https://openstax.org/books/chemistry-2e/pages/3-1-formula-mass-and-the-mole-concept"
+    },
+    {
+      "id": "C09-Q2",
+      "kind": "understanding",
+      "prompt": "Какая единица подходит для молярной массы в этих задачах?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "г"
+        },
+        {
+          "id": "o2",
+          "text": "моль/г"
+        },
+        {
+          "id": "o3",
+          "text": "г/моль"
+        },
+        {
+          "id": "o4",
+          "text": "л"
+        }
+      ],
+      "correctOptionId": "o3",
+      "explanation": "Молярная масса — масса, приходящаяся на один моль вещества.",
+      "lessonAnchor": "молярная-масса",
+      "sourceUrl": "https://openstax.org/books/chemistry-2e/pages/3-1-formula-mass-and-the-mole-concept"
+    },
+    {
+      "id": "C09-Q3",
+      "kind": "application",
+      "prompt": "Какое количество вещества содержится в 36 г H₂O при M = 18 г/моль?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "18 моль"
+        },
+        {
+          "id": "o2",
+          "text": "648 моль"
+        },
+        {
+          "id": "o3",
+          "text": "0,5 моль"
+        },
+        {
+          "id": "o4",
+          "text": "2 моль"
+        }
+      ],
+      "correctOptionId": "o4",
+      "explanation": "Используем n = m / M: 36 г / (18 г/моль) = 2 моль. Единицы граммов сокращаются.",
+      "lessonAnchor": "разобранный-пример",
+      "sourceUrl": "https://openstax.org/books/chemistry-2e/pages/3-1-formula-mass-and-the-mole-concept"
+    },
+    {
+      "id": "C09-Q4",
+      "kind": "application",
+      "prompt": "Какова масса 0,5 моль CO₂ при M = 44 г/моль?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "22 г"
+        },
+        {
+          "id": "o2",
+          "text": "88 г"
+        },
+        {
+          "id": "o3",
+          "text": "44,5 г"
+        },
+        {
+          "id": "o4",
+          "text": "0,5 г"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "Из n = m / M получаем m = n × M: 0,5 моль × 44 г/моль = 22 г.",
+      "lessonAnchor": "разобранный-пример",
+      "sourceUrl": "https://openstax.org/books/chemistry-2e/pages/3-1-formula-mass-and-the-mole-concept"
+    },
+    {
+      "id": "C09-Q5",
+      "kind": "misconception",
+      "prompt": "Один моль H₂ и один моль O₂ обязательно имеют одинаковую массу?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Да, любое вещество весит 1 г на моль"
+        },
+        {
+          "id": "o2",
+          "text": "Нет, одинаково число молекул, а массы различаются"
+        },
+        {
+          "id": "o3",
+          "text": "Да, потому что оба — газы"
+        },
+        {
+          "id": "o4",
+          "text": "Нет, у них обязательно разное число молекул"
+        }
+      ],
+      "correctOptionId": "o2",
+      "explanation": "Равное количество вещества означает одинаковое число названных частиц, но не их одинаковую массу.",
+      "lessonAnchor": "счёт-огромными-порциями",
+      "sourceUrl": "https://openstax.org/books/chemistry-2e/pages/3-1-formula-mass-and-the-mole-concept"
+    }
+  ]
+}

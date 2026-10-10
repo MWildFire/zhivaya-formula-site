@@ -1,0 +1,8 @@
+---
+import Base from '../layouts/Base.astro';
+import Filters from '../components/Filters.astro';
+import { allLessons, subjects, lessonUrl } from '../lib/catalog';
+import { withBase } from '../lib/paths';
+const lessons=await allLessons();
+---
+<Base title="Интересные факты" description="36 проверенных фактов о живой природе и веществах. Каждый факт связан с уроком и научным источником."><section class="catalog-intro facts-intro"><div class="container"><p class="eyebrow">В привычном — удивительное</p><h1>А ты знал?</h1><p>36 маленьких открытий. Каждое ведёт к большой теме.</p></div></section><section class="container section catalog"><Filters subject grades={false} placeholder="Что тебе интересно?" /><div class="card-grid facts-grid">{lessons.map(({data:l})=><article class:list={['fact-card',l.subject]} data-item data-subject={l.subject} data-search={`${l.title} ${l.fact.title} ${l.fact.text}`}><div class="card-meta"><span class="subject-tag">{subjects[l.subject].title}</span><span aria-hidden="true">✦</span></div><h2>{l.fact.title}</h2><p>{l.fact.text}</p><div class="fact-links"><a href={withBase(lessonUrl(l))}>К теме →</a><a href={l.fact.sourceUrl}>Источник ↗</a></div></article>)}</div></section></Base>

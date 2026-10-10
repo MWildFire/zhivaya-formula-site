@@ -1,0 +1,16 @@
+---
+import { render } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import { allLessons, subjects, lessonUrl, gradesLabel } from '../../lib/catalog';
+import { withBase } from '../../lib/paths';
+export async function getStaticPaths(){return (await allLessons()).map(lesson=>({params:{subject:lesson.data.subject,slug:lesson.data.slug},props:{lesson}}));}
+const {lesson}=Astro.props;
+const l=lesson.data;
+const {Content, headings}=await render(lesson);
+const siblings=(await allLessons()).filter(x=>x.data.subject===l.subject);
+const next=siblings.find(x=>x.data.order===l.order+1);
+---
+<Base title={l.title} description={l.description}>
+ <div class="container lesson-top"><nav aria-label="Хлебные крошки" class="breadcrumbs"><a href={withBase('/')}>Главная</a><span aria-hidden="true">/</span><a href={withBase(`/${l.subject}/`)}>{subjects[l.subject].title}</a><span aria-hidden="true">/</span><span>Тема {l.order}</span></nav><div class="lesson-badges"><span class:list={['subject-tag',l.subject]}>{subjects[l.subject].title}</span><span>{gradesLabel(l.grades)}</span><span>{l.readingMinutes} мин чтения</span>{l.introductory && <span>Знакомство с химией</span>}</div><h1>{l.title}</h1><p class="lesson-description">{l.description}</p></div>
+ <div class="container lesson-layout"><aside class="lesson-sidebar"><nav aria-label="В этом уроке"><p class="eyebrow">В этом уроке</p>{headings.filter(h=>h.depth===2).map(h=><a href={`#${h.slug}`}>{h.text}</a>)}<a href="#fact">Интересный факт</a><a href="#sources">Источники</a></nav><a class="button" href={withBase(`/tests/${l.id}/`)}>Пройти тест ↗</a></aside><article class="lesson-content"><div class="objectives"><p class="eyebrow">После урока ты сможешь</p><ul>{l.learningObjectives.map(x=><li>{x}</li>)}</ul></div><div class="prose"><Content /></div><section class:list={['lesson-fact',l.subject]} id="fact"><p class="eyebrow">А ты знал? <span aria-hidden="true">✦</span></p><h2>{l.fact.title}</h2><p>{l.fact.text}</p><a href={l.fact.sourceUrl}>Источник факта ↗</a></section><section class="lesson-sources" id="sources"><h2>Источники и дальше по теме</h2><p>Текст урока написан для этого сайта. Научные положения основаны на открытых учебных и научных источниках; ссылки ведут на образовательные и научные источники на английском языке.</p>{l.sources.some(s=>s.url.includes('openstax.org')) && <p>Материалы OpenStax, на которые есть ссылки, распространяются по лицензии CC BY 4.0.</p>}<ul>{l.sources.map(s=><li><a href={s.url}>{s.title} ↗</a></li>)}</ul></section><section class="lesson-test-callout"><span class="eyebrow">Теперь твоя очередь</span><h2>Соберём всё вместе?</h2><p>Пять вопросов по этой теме. После проверки — разбор каждого ответа.</p><a class="button" href={withBase(`/tests/${l.id}/`)}>Пройти тест →</a></section><nav class="lesson-next" aria-label="Продолжить обучение"><a href={withBase(`/${l.subject}/`)}>← Все темы</a>{next && <a href={withBase(lessonUrl(next.data))}>Далее: {next.data.title} →</a>}</nav></article></div>
+</Base>

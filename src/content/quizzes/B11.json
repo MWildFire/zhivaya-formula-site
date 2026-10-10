@@ -1,0 +1,141 @@
+{
+  "id": "quiz-B11",
+  "topicId": "B11",
+  "questions": [
+    {
+      "id": "B11-Q1",
+      "kind": "understanding",
+      "prompt": "Как определяют артерию?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Она всегда несёт насыщенную кислородом кровь"
+        },
+        {
+          "id": "o2",
+          "text": "Она несёт кровь к сердцу"
+        },
+        {
+          "id": "o3",
+          "text": "Она обязательно участвует в газообмене через тонкую стенку"
+        },
+        {
+          "id": "o4",
+          "text": "Она несёт кровь от сердца"
+        }
+      ],
+      "correctOptionId": "o4",
+      "explanation": "Артерии определяют по направлению кровотока относительно сердца.",
+      "lessonAnchor": "сердце-и-сосуды",
+      "sourceUrl": "https://openstax.org/books/biology-2e/pages/40-1-overview-of-the-circulatory-system"
+    },
+    {
+      "id": "B11-Q2",
+      "kind": "understanding",
+      "prompt": "Где происходит основной газообмен между воздухом лёгких и кровью?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "В области альвеол и окружающих капилляров"
+        },
+        {
+          "id": "o2",
+          "text": "В трахее"
+        },
+        {
+          "id": "o3",
+          "text": "В крупных бронхах"
+        },
+        {
+          "id": "o4",
+          "text": "В полости левого желудочка"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "Тонкий альвеолярно-капиллярный барьер обеспечивает обмен кислородом и углекислым газом.",
+      "lessonAnchor": "воздух-и-газообмен",
+      "sourceUrl": "https://openstax.org/books/biology-2e/pages/39-1-systems-of-gas-exchange"
+    },
+    {
+      "id": "B11-Q3",
+      "kind": "application",
+      "prompt": "Куда правая половина сердца направляет кровь?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "В аорту большого круга"
+        },
+        {
+          "id": "o2",
+          "text": "К лёгким"
+        },
+        {
+          "id": "o3",
+          "text": "Непосредственно в капилляры всех мышц"
+        },
+        {
+          "id": "o4",
+          "text": "В левое предсердие, минуя лёгкие"
+        }
+      ],
+      "correctOptionId": "o2",
+      "explanation": "Правый желудочек направляет кровь по малому кругу к лёгким.",
+      "lessonAnchor": "два-круга",
+      "sourceUrl": "https://openstax.org/books/biology-2e/pages/40-1-overview-of-the-circulatory-system"
+    },
+    {
+      "id": "B11-Q4",
+      "kind": "application",
+      "prompt": "Какой сосуд возвращает насыщенную кислородом кровь из лёгких к сердцу?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Лёгочная артерия"
+        },
+        {
+          "id": "o2",
+          "text": "Аорта"
+        },
+        {
+          "id": "o3",
+          "text": "Лёгочная вена"
+        },
+        {
+          "id": "o4",
+          "text": "Полая вена"
+        }
+      ],
+      "correctOptionId": "o3",
+      "explanation": "Лёгочные вены ведут от лёгких к левому предсердию.",
+      "lessonAnchor": "сердце-и-сосуды",
+      "sourceUrl": "https://openstax.org/books/biology-2e/pages/40-1-overview-of-the-circulatory-system"
+    },
+    {
+      "id": "B11-Q5",
+      "kind": "misconception",
+      "prompt": "Вдох и клеточное дыхание — один и тот же процесс?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Да, это полные синонимы"
+        },
+        {
+          "id": "o2",
+          "text": "Да, если человек не двигается"
+        },
+        {
+          "id": "o3",
+          "text": "Нет, клетки вообще не используют кислород"
+        },
+        {
+          "id": "o4",
+          "text": "Нет, вдох обновляет воздух, а клеточное дыхание связано с получением энергии в клетках"
+        }
+      ],
+      "correctOptionId": "o4",
+      "explanation": "Вентиляция, перенос газов и их использование клетками — отдельные связанные этапы.",
+      "lessonAnchor": "главное",
+      "sourceUrl": "https://openstax.org/books/biology-2e/pages/39-1-systems-of-gas-exchange"
+    }
+  ]
+}

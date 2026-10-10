@@ -1,0 +1,141 @@
+{
+  "id": "quiz-C13",
+  "topicId": "C13",
+  "questions": [
+    {
+      "id": "C13-Q1",
+      "kind": "understanding",
+      "prompt": "Что происходит при восстановлении?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Отдача электронов"
+        },
+        {
+          "id": "o2",
+          "text": "Принятие электронов"
+        },
+        {
+          "id": "o3",
+          "text": "Повышение степени окисления"
+        },
+        {
+          "id": "o4",
+          "text": "Обязательное соединение с кислородом"
+        }
+      ],
+      "correctOptionId": "o2",
+      "explanation": "Восстановление связано с принятием электронов участником реакции.",
+      "lessonAnchor": "два-связанных-процесса",
+      "sourceUrl": "https://openstax.org/books/chemistry-2e/pages/17-1-review-of-redox-chemistry"
+    },
+    {
+      "id": "C13-Q2",
+      "kind": "understanding",
+      "prompt": "Какова роль окислителя?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Он отдаёт электроны и окисляется"
+        },
+        {
+          "id": "o2",
+          "text": "Он принимает электроны и окисляется"
+        },
+        {
+          "id": "o3",
+          "text": "Он принимает электроны и восстанавливается"
+        },
+        {
+          "id": "o4",
+          "text": "Он отдаёт электроны и восстанавливается"
+        }
+      ],
+      "correctOptionId": "o3",
+      "explanation": "Окислитель вызывает окисление другого участника, принимая его электроны.",
+      "lessonAnchor": "два-связанных-процесса",
+      "sourceUrl": "https://openstax.org/books/chemistry-2e/pages/17-1-review-of-redox-chemistry"
+    },
+    {
+      "id": "C13-Q3",
+      "kind": "application",
+      "prompt": "В Zn → Zn²⁺ + 2e⁻ что происходит с цинком?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Он восстанавливается"
+        },
+        {
+          "id": "o2",
+          "text": "Он принимает два электрона"
+        },
+        {
+          "id": "o3",
+          "text": "Его степень окисления понижается"
+        },
+        {
+          "id": "o4",
+          "text": "Он окисляется"
+        }
+      ],
+      "correctOptionId": "o4",
+      "explanation": "Цинк отдаёт электроны, поэтому окисляется.",
+      "lessonAnchor": "пример-с-цинком-и-медью",
+      "sourceUrl": "https://openstax.org/books/chemistry-2e/pages/17-1-review-of-redox-chemistry"
+    },
+    {
+      "id": "C13-Q4",
+      "kind": "application",
+      "prompt": "Почему целая краска замедляет ржавление железа?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Ограничивает доступ воды и кислорода"
+        },
+        {
+          "id": "o2",
+          "text": "Краска превращает уже имеющуюся ржавчину обратно в железо"
+        },
+        {
+          "id": "o3",
+          "text": "Краска служит жертвенным анодом так же, как магний"
+        },
+        {
+          "id": "o4",
+          "text": "Краска полностью защищает железо даже при сквозной царапине"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "Краска действует как барьер между поверхностью железа и средой.",
+      "lessonAnchor": "разобранный-пример",
+      "sourceUrl": "https://openstax.org/books/chemistry-2e/pages/17-6-corrosion"
+    },
+    {
+      "id": "C13-Q5",
+      "kind": "misconception",
+      "prompt": "Обязательно ли кислород должен быть реагентом любой ОВР?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Да, без O₂ окисления нет"
+        },
+        {
+          "id": "o2",
+          "text": "Нет, например Zn + Cu²⁺ → Zn²⁺ + Cu"
+        },
+        {
+          "id": "o3",
+          "text": "Да, если реакция в растворе"
+        },
+        {
+          "id": "o4",
+          "text": "Нет, потому что ОВР не связаны с электронами"
+        }
+      ],
+      "correctOptionId": "o2",
+      "explanation": "Современное определение связано с электронами и степенями окисления, а не обязательным наличием O₂.",
+      "lessonAnchor": "два-связанных-процесса",
+      "sourceUrl": "https://openstax.org/books/chemistry-2e/pages/17-1-review-of-redox-chemistry"
+    }
+  ]
+}

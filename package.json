@@ -1,0 +1,29 @@
+{
+  "name": "zhivaya-formula",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=24 <25"
+  },
+  "scripts": {
+    "dev": "ASTRO_TELEMETRY_DISABLED=1 astro dev --host 127.0.0.1",
+    "check": "ASTRO_TELEMETRY_DISABLED=1 astro check && node --import tsx scripts/validate-content.ts",
+    "build": "npm run check && ASTRO_TELEMETRY_DISABLED=1 astro build && node --import tsx scripts/verify-build.ts",
+    "preview": "node scripts/serve.mjs",
+    "test": "node --import tsx --test tests/logic.test.ts",
+    "test:http": "node --import tsx scripts/http-qa.ts"
+  },
+  "dependencies": {
+    "astro": "7.3.4"
+  },
+  "devDependencies": {
+    "@astrojs/check": "0.9.10",
+    "@types/node": "24.13.6",
+    "cheerio": "1.2.0",
+    "gray-matter": "4.0.3",
+    "tsx": "4.23.15",
+    "typescript": "6.0.3",
+    "zod": "4.6.5"
+  }
+}

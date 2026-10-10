@@ -1,0 +1,141 @@
+{
+  "id": "quiz-C08",
+  "topicId": "C08",
+  "questions": [
+    {
+      "id": "C08-Q1",
+      "kind": "understanding",
+      "prompt": "Что сохраняется в обычной химической реакции?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Число атомов каждого элемента"
+        },
+        {
+          "id": "o2",
+          "text": "Обязательно число молекул"
+        },
+        {
+          "id": "o3",
+          "text": "Обязательно объём газа"
+        },
+        {
+          "id": "o4",
+          "text": "Обязательно цвет веществ"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "Химическая реакция перегруппировывает атомы, но не меняет число атомов каждого элемента.",
+      "lessonAnchor": "атомы-сохраняются",
+      "sourceUrl": "https://openstax.org/books/chemistry-2e/pages/2-1-early-ideas-in-atomic-theory"
+    },
+    {
+      "id": "C08-Q2",
+      "kind": "understanding",
+      "prompt": "Что разрешено менять при уравнивании правильной схемы реакции?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Индексы внутри формул"
+        },
+        {
+          "id": "o2",
+          "text": "Коэффициенты перед формулами"
+        },
+        {
+          "id": "o3",
+          "text": "Символы элементов произвольно"
+        },
+        {
+          "id": "o4",
+          "text": "Заряды ядер"
+        }
+      ],
+      "correctOptionId": "o2",
+      "explanation": "Коэффициент меняет количество вещества, а индекс изменил бы само вещество.",
+      "lessonAnchor": "подбор-коэффициентов",
+      "sourceUrl": "https://openstax.org/books/chemistry-2e/pages/4-1-writing-and-balancing-chemical-equations"
+    },
+    {
+      "id": "C08-Q3",
+      "kind": "application",
+      "prompt": "Какие коэффициенты нужны в H₂ + O₂ → H₂O по порядку?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "1, 1, 1"
+        },
+        {
+          "id": "o2",
+          "text": "1, 2, 1"
+        },
+        {
+          "id": "o3",
+          "text": "2, 1, 2"
+        },
+        {
+          "id": "o4",
+          "text": "2, 2, 1"
+        }
+      ],
+      "correctOptionId": "o3",
+      "explanation": "В записи 2H₂ + O₂ → 2H₂O по обе стороны четыре H и два O.",
+      "lessonAnchor": "как-записывают-реакцию",
+      "sourceUrl": "https://openstax.org/books/chemistry-2e/pages/4-1-writing-and-balancing-chemical-equations"
+    },
+    {
+      "id": "C08-Q4",
+      "kind": "application",
+      "prompt": "В закрытой системе полностью реагируют 12 г и 8 г двух веществ. Какова общая масса продуктов?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "4 г"
+        },
+        {
+          "id": "o2",
+          "text": "12 г"
+        },
+        {
+          "id": "o3",
+          "text": "96 г"
+        },
+        {
+          "id": "o4",
+          "text": "20 г"
+        }
+      ],
+      "correctOptionId": "o4",
+      "explanation": "Если учтены все реагенты и продукты, масса сохраняется: 12 + 8 = 20 г.",
+      "lessonAnchor": "разобранный-пример",
+      "sourceUrl": "https://openstax.org/books/chemistry-2e/pages/2-1-early-ideas-in-atomic-theory"
+    },
+    {
+      "id": "C08-Q5",
+      "kind": "misconception",
+      "prompt": "Газ улетел из открытого сосуда, и масса на весах уменьшилась. Закон сохранения нарушен?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Нет, нужно учесть массу улетевшего газа"
+        },
+        {
+          "id": "o2",
+          "text": "Да, атомы исчезли"
+        },
+        {
+          "id": "o3",
+          "text": "Да, газ не имеет массы"
+        },
+        {
+          "id": "o4",
+          "text": "Нет, потому что закон относится только к жидкостям"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "Открытая система теряет вещество; общая масса с учётом газа сохраняется.",
+      "lessonAnchor": "атомы-сохраняются",
+      "sourceUrl": "https://openstax.org/books/chemistry-2e/pages/2-1-early-ideas-in-atomic-theory"
+    }
+  ]
+}

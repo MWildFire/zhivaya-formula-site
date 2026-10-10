@@ -1,0 +1,37 @@
+---
+import { site } from '../config/site';
+import { absoluteUrl, withBase } from '../lib/paths';
+import '../styles/global.css';
+interface Props { title?: string; description?: string; noindex?: boolean }
+const { title, description = site.description, noindex = false } = Astro.props;
+// Astro.url.pathname уже содержит base-путь сайта; маршрут считаем без него.
+const route = Astro.url.pathname.replace(site.base, '') || '/';
+const canonical = absoluteUrl(route === "/404/" ? "/404.html" : route);
+const navigation = [['/biology/','Биология'],['/chemistry/','Химия'],['/tests/','Тесты'],['/facts/','Интересные факты']];
+---
+<!doctype html>
+<html lang="ru">
+<head>
+ <meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+ <title>{title ? `${title} — ${site.name}` : `${site.name} — ${site.description}`}</title>
+ <meta name="description" content={description} /><meta name="theme-color" content="#f6f8fc" /><meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self'; font-src 'self'; connect-src 'none'; base-uri 'none'; object-src 'none'; form-action 'self'" />
+ <meta name="robots" content={site.indexing && !noindex ? 'index, follow' : 'noindex, follow'} />
+ <link rel="canonical" href={canonical} /><link rel="icon" href={withBase('/favicon.svg')} type="image/svg+xml" />
+ <meta property="og:title" content={title ? `${title} — ${site.name}` : site.name} /><meta property="og:description" content={description} /><meta property="og:type" content="website" /><meta property="og:locale" content="ru_RU" /><meta property="og:url" content={canonical} />
+</head>
+<body>
+ <a class="skip-link" href="#main">К содержанию</a>
+ <header class="site-header"><div class="container header-inner">
+  <a class="brand" href={withBase('/')} aria-label={`${site.name} — главная`}><span class="brand-mark" aria-hidden="true">ж<span>·</span>ф</span><span>{site.name}<small>Химия + биология</small></span></a>
+  <button class="menu-button" aria-controls="navigation" aria-expanded="false" hidden>Меню <span aria-hidden="true">☰</span></button>
+  <nav id="navigation" aria-label="Основная навигация">{navigation.map(([url,label]) => <a href={withBase(url)} aria-current={route.startsWith(url) ? 'page' : undefined}>{label}</a>)}</nav>
+ </div></header>
+ <main id="main"><slot /></main>
+ <footer class="site-footer"><div class="container footer-top"><a href={withBase('/')} class="brand footer-brand">{site.name}<span aria-hidden="true">↗</span></a><p>Большие открытия начинаются<br />с простого «почему?»</p><a href={withBase('/tests/')}>Проверить себя →</a></div><div class="container footer-bottom"><p>36 тем для знакомства и повторения · 5–11 классы</p><p>Без регистрации. В своём темпе.</p><p class="scope-note">Класс — ориентир сложности. Подборка не заменяет полную школьную программу. Источники указаны в каждом уроке.</p></div></footer>
+ <script>
+  const toggle = document.querySelector<HTMLButtonElement>('.menu-button');
+  const nav = document.querySelector<HTMLElement>('#navigation');
+  if(toggle && nav) { toggle.hidden = false; nav.dataset.enhanced = 'true'; toggle.addEventListener('click',()=> { const open=toggle.getAttribute('aria-expanded') !== 'true'; toggle.setAttribute('aria-expanded',String(open)); nav.dataset.open=String(open); }); document.addEventListener('keydown',event=>{if(event.key==='Escape' && toggle.getAttribute('aria-expanded')==='true'){toggle.setAttribute('aria-expanded','false');nav.dataset.open='false';toggle.focus();}}); }
+ </script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+---
+import Base from '../../layouts/Base.astro';
+import TopicCard from '../../components/TopicCard.astro';
+import Filters from '../../components/Filters.astro';
+import { allLessons, subjects, type Subject } from '../../lib/catalog';
+import { withBase } from '../../lib/paths';
+export const getStaticPaths=()=> Object.keys(subjects).map(subject=>({params:{subject}}));
+const subject=Astro.params.subject as Subject;
+const lessons=(await allLessons()).filter(x=>x.data.subject===subject);
+const info=subjects[subject];
+---
+<Base title={info.title} description={info.description}>
+ <section class:list={['catalog-intro',subject]}><div class="container"><a class="breadcrumb" href={withBase('/')}>Главная /</a><p class="eyebrow">{info.caption} · 18 тем</p><h1>{info.title}</h1><p>{info.description}</p>{subject==='chemistry' && <p class="level-note">5–7 классы — знакомство с химией. 8–11 — основные понятия и расчёты.</p>}</div></section>
+ <section class="container section catalog"><Filters /><noscript><p class="notice">Показаны все темы. Для поиска и фильтров включи JavaScript.</p></noscript><div class="card-grid">{lessons.map(l=><TopicCard lesson={l.data} />)}</div></section>
+</Base>

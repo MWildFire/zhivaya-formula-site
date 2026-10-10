@@ -1,0 +1,13 @@
+---
+interface Props { subject?: boolean; grades?: boolean; placeholder?: string }
+const { subject = false, grades = true, placeholder = 'Название или ключевое слово' } = Astro.props;
+---
+<form class="filters" data-filters hidden role="search" aria-label="Поиск по каталогу">
+ <label class="search-control"><span>Найти тему</span><input name="query" type="search" placeholder={placeholder} autocomplete="off" /></label>
+ {subject && <label><span>Предмет</span><select name="subject"><option value="">Все предметы</option><option value="biology">Биология</option><option value="chemistry">Химия</option></select></label>}
+ {grades && <label><span>Класс</span><select name="grade"><option value="">Все классы</option>{[5,6,7,8,9,10,11].map(g=><option value={g}>{g} класс</option>)}</select></label>}
+ <button type="reset" class="reset-button">Сбросить фильтры</button>
+</form>
+<p class="result-count" data-count aria-live="polite"></p>
+<div class="empty-state" data-empty hidden><span aria-hidden="true">⌕</span><h2>Пока ничего не нашлось</h2><p>Попробуй другое слово или выбери все классы.</p><button type="button" class="button" data-reset>Сбросить фильтры</button></div>
+<script>import '../scripts/filters';</script>

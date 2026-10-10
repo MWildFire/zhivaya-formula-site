@@ -1,0 +1,141 @@
+{
+  "id": "quiz-C05",
+  "topicId": "C05",
+  "questions": [
+    {
+      "id": "C05-Q1",
+      "kind": "understanding",
+      "prompt": "Чем определяется химический элемент?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Числом предметов в образце"
+        },
+        {
+          "id": "o2",
+          "text": "Числом протонов в ядре"
+        },
+        {
+          "id": "o3",
+          "text": "Цветом простого вещества"
+        },
+        {
+          "id": "o4",
+          "text": "Только числом нейтронов"
+        }
+      ],
+      "correctOptionId": "o2",
+      "explanation": "Атомы одного элемента имеют одинаковый заряд ядра и одинаковое число протонов.",
+      "lessonAnchor": "элемент-и-изотопы",
+      "sourceUrl": "https://openstax.org/books/chemistry-2e/pages/2-3-atomic-structure-and-symbolism"
+    },
+    {
+      "id": "C05-Q2",
+      "kind": "understanding",
+      "prompt": "Что называют группой в периодической таблице?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Горизонтальную строку"
+        },
+        {
+          "id": "o2",
+          "text": "Любую молекулу"
+        },
+        {
+          "id": "o3",
+          "text": "Вертикальный столбец элементов"
+        },
+        {
+          "id": "o4",
+          "text": "Сумму протонов и нейтронов"
+        }
+      ],
+      "correctOptionId": "o3",
+      "explanation": "Группа — вертикальный столбец; горизонтальные строки называются периодами.",
+      "lessonAnchor": "как-читать-таблицу",
+      "sourceUrl": "https://openstax.org/books/chemistry-2e/pages/2-5-the-periodic-table"
+    },
+    {
+      "id": "C05-Q3",
+      "kind": "application",
+      "prompt": "У нейтрального атома Z = 8. Сколько у него электронов?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "4"
+        },
+        {
+          "id": "o2",
+          "text": "16"
+        },
+        {
+          "id": "o3",
+          "text": "0"
+        },
+        {
+          "id": "o4",
+          "text": "8"
+        }
+      ],
+      "correctOptionId": "o4",
+      "explanation": "Нейтральность означает равенство числа электронов числу протонов, то есть Z.",
+      "lessonAnchor": "что-внутри-атома",
+      "sourceUrl": "https://openstax.org/books/chemistry-2e/pages/2-3-atomic-structure-and-symbolism"
+    },
+    {
+      "id": "C05-Q4",
+      "kind": "application",
+      "prompt": "У атома Z = 6 и A = 14. Сколько нейтронов в ядре?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "8"
+        },
+        {
+          "id": "o2",
+          "text": "6"
+        },
+        {
+          "id": "o3",
+          "text": "14"
+        },
+        {
+          "id": "o4",
+          "text": "20"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "Число нейтронов равно A − Z = 14 − 6 = 8.",
+      "lessonAnchor": "элемент-и-изотопы",
+      "sourceUrl": "https://openstax.org/books/chemistry-2e/pages/2-3-atomic-structure-and-symbolism"
+    },
+    {
+      "id": "C05-Q5",
+      "kind": "misconception",
+      "prompt": "Атом натрия потерял один электрон. Он стал другим элементом?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Да, он стал неоном"
+        },
+        {
+          "id": "o2",
+          "text": "Нет, число протонов сохранилось"
+        },
+        {
+          "id": "o3",
+          "text": "Да, он стал магнием"
+        },
+        {
+          "id": "o4",
+          "text": "Да, любой ион — новый элемент"
+        }
+      ],
+      "correctOptionId": "o2",
+      "explanation": "Потеря электрона меняет заряд частицы, но не порядковый номер элемента.",
+      "lessonAnchor": "разобранный-пример",
+      "sourceUrl": "https://openstax.org/books/chemistry-2e/pages/2-3-atomic-structure-and-symbolism"
+    }
+  ]
+}

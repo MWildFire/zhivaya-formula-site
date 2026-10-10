@@ -1,0 +1,141 @@
+{
+  "id": "quiz-C02",
+  "topicId": "C02",
+  "questions": [
+    {
+      "id": "C02-Q1",
+      "kind": "understanding",
+      "prompt": "Почему жидкость принимает форму сосуда?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Молекулы жидкости принимают форму сосуда"
+        },
+        {
+          "id": "o2",
+          "text": "Жидкость состоит из неподвижной решётки"
+        },
+        {
+          "id": "o3",
+          "text": "Её частицы могут перемещаться друг относительно друга"
+        },
+        {
+          "id": "o4",
+          "text": "Между частицами жидкости такие же большие промежутки, как в газе"
+        }
+      ],
+      "correctOptionId": "o3",
+      "explanation": "Частицы жидкости расположены близко, но способны менять соседей и перемещаться.",
+      "lessonAnchor": "три-состояния",
+      "sourceUrl": "https://openstax.org/books/chemistry-2e/pages/1-2-phases-and-classification-of-matter"
+    },
+    {
+      "id": "C02-Q2",
+      "kind": "understanding",
+      "prompt": "Как называется переход водяного пара в жидкую воду?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Плавление"
+        },
+        {
+          "id": "o2",
+          "text": "Кипение"
+        },
+        {
+          "id": "o3",
+          "text": "Испарение"
+        },
+        {
+          "id": "o4",
+          "text": "Конденсация"
+        }
+      ],
+      "correctOptionId": "o4",
+      "explanation": "При конденсации газообразная вода становится жидкостью.",
+      "lessonAnchor": "переходы-между-состояниями",
+      "sourceUrl": "https://openstax.org/books/chemistry-2e/pages/10-3-phase-transitions"
+    },
+    {
+      "id": "C02-Q3",
+      "kind": "application",
+      "prompt": "Откуда появились капли снаружи холодного стакана?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Из водяного пара в окружающем воздухе"
+        },
+        {
+          "id": "o2",
+          "text": "Из воды внутри стакана, прошедшей через целую стенку"
+        },
+        {
+          "id": "o3",
+          "text": "Из воздуха, в котором водяной пар испарился"
+        },
+        {
+          "id": "o4",
+          "text": "Из льда, обязательно находящегося снаружи стакана"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "Около холодного стекла воздух охлаждается; водяной пар конденсируется в капли.",
+      "lessonAnchor": "разобранный-пример",
+      "sourceUrl": "https://openstax.org/books/chemistry-2e/pages/10-3-phase-transitions"
+    },
+    {
+      "id": "C02-Q4",
+      "kind": "application",
+      "prompt": "Какое вещество легче заметно сжать: воздух или жидкую воду?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Воду: её частицы дальше друг от друга"
+        },
+        {
+          "id": "o2",
+          "text": "Воздух: между его частицами больше свободного пространства"
+        },
+        {
+          "id": "o3",
+          "text": "Оба одинаково, ведь частицы одинаковые"
+        },
+        {
+          "id": "o4",
+          "text": "Ни одно нельзя сжать"
+        }
+      ],
+      "correctOptionId": "o2",
+      "explanation": "В газе промежутки между частицами значительно больше, чем в жидкости.",
+      "lessonAnchor": "три-состояния",
+      "sourceUrl": "https://openstax.org/books/chemistry-2e/pages/1-2-phases-and-classification-of-matter"
+    },
+    {
+      "id": "C02-Q5",
+      "kind": "misconception",
+      "prompt": "Верно ли, что вода испаряется только при 100 °C?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Да, это обязательный порог"
+        },
+        {
+          "id": "o2",
+          "text": "Да, если вода чистая"
+        },
+        {
+          "id": "o3",
+          "text": "Нет, испарение возможно ниже температуры кипения"
+        },
+        {
+          "id": "o4",
+          "text": "Нет, она испаряется только ниже 0 °C"
+        }
+      ],
+      "correctOptionId": "o3",
+      "explanation": "Испарение происходит с поверхности и не требует кипения.",
+      "lessonAnchor": "переходы-между-состояниями",
+      "sourceUrl": "https://www.usgs.gov/special-topics/water-science-school/science/evaporation-and-water-cycle"
+    }
+  ]
+}

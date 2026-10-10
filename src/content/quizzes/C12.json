@@ -1,0 +1,141 @@
+{
+  "id": "quiz-C12",
+  "topicId": "C12",
+  "questions": [
+    {
+      "id": "C12-Q1",
+      "kind": "understanding",
+      "prompt": "Какой среде соответствует pH 3 водного раствора при 25 °C?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Кислой"
+        },
+        {
+          "id": "o2",
+          "text": "Нейтральной"
+        },
+        {
+          "id": "o3",
+          "text": "Щелочной"
+        },
+        {
+          "id": "o4",
+          "text": "Любой, pH не связан со средой"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "При 25 °C значение ниже 7 соответствует кислой среде.",
+      "lessonAnchor": "как-читать-ph",
+      "sourceUrl": "https://openstax.org/books/chemistry-2e/pages/14-2-ph-and-poh"
+    },
+    {
+      "id": "C12-Q2",
+      "kind": "understanding",
+      "prompt": "Что показывает кислотно-основный индикатор?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Однозначно определяет название растворённой кислоты"
+        },
+        {
+          "id": "o2",
+          "text": "Переход окраски в определённом диапазоне pH"
+        },
+        {
+          "id": "o3",
+          "text": "Всегда показывает pH с точностью до сотой"
+        },
+        {
+          "id": "o4",
+          "text": "Определяет общую массу кислоты независимо от объёма раствора"
+        }
+      ],
+      "correctOptionId": "o2",
+      "explanation": "Индикатор реагирует на кислотность в своём диапазоне; он не определяет весь состав.",
+      "lessonAnchor": "что-делает-индикатор",
+      "sourceUrl": "https://williams.chemistry.gatech.edu/course_Information/red_cabbage_pH_indicator/cabbage.html"
+    },
+    {
+      "id": "C12-Q3",
+      "kind": "application",
+      "prompt": "У растворов pH 3 и pH 4. Где концентрация H₃O⁺ примерно в 10 раз выше?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "В растворе с pH 4"
+        },
+        {
+          "id": "o2",
+          "text": "Одинакова в обоих"
+        },
+        {
+          "id": "o3",
+          "text": "В растворе с pH 3"
+        },
+        {
+          "id": "o4",
+          "text": "Это означает разницу только в 1%"
+        }
+      ],
+      "correctOptionId": "o3",
+      "explanation": "Шкала логарифмическая: уменьшение pH на единицу означает примерно десятикратный рост концентрации H₃O⁺.",
+      "lessonAnchor": "как-читать-ph",
+      "sourceUrl": "https://openstax.org/books/chemistry-2e/pages/14-2-ph-and-poh"
+    },
+    {
+      "id": "C12-Q4",
+      "kind": "application",
+      "prompt": "После реакции HCl с NaOH остался избыток HCl. Какой будет среда?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Обязательно нейтральной: любое смешивание даёт pH 7"
+        },
+        {
+          "id": "o2",
+          "text": "Щелочной: присутствие натрия всегда делает среду щелочной"
+        },
+        {
+          "id": "o3",
+          "text": "Нейтральной: образование соли полностью устраняет влияние избытка"
+        },
+        {
+          "id": "o4",
+          "text": "Кислой"
+        }
+      ],
+      "correctOptionId": "o4",
+      "explanation": "Избыток сильной кислоты определяет кислую среду после реакции.",
+      "lessonAnchor": "нейтрализация",
+      "sourceUrl": "https://openstax.org/books/chemistry-2e/pages/4-2-classifying-chemical-reactions"
+    },
+    {
+      "id": "C12-Q5",
+      "kind": "misconception",
+      "prompt": "После любого смешивания кислоты и основания pH обязательно равен 7?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Нет, важны количества и свойства реагентов"
+        },
+        {
+          "id": "o2",
+          "text": "Да, независимо от количества"
+        },
+        {
+          "id": "o3",
+          "text": "Да, если смесь прозрачная"
+        },
+        {
+          "id": "o4",
+          "text": "Да, если её перемешали"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "Нейтральная среда возникает не при любом соотношении реагентов; избыток и свойства веществ имеют значение.",
+      "lessonAnchor": "нейтрализация",
+      "sourceUrl": "https://openstax.org/books/chemistry-2e/pages/4-2-classifying-chemical-reactions"
+    }
+  ]
+}

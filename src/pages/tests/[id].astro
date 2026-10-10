@@ -1,0 +1,17 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import { allLessons, subjects, lessonUrl, gradesLabel } from '../../lib/catalog';
+import { withBase } from '../../lib/paths';
+export async function getStaticPaths(){const quizzes=await getCollection('quizzes');const lessons=await allLessons();return quizzes.map(q=>({params:{id:q.data.topicId},props:{quiz:q.data,lesson:lessons.find(l=>l.data.id===q.data.topicId)!.data}}));}
+const {quiz,lesson:l}=Astro.props;
+---
+<Base title={`Тест: ${l.title}`} description={`Пять вопросов по теме «${l.title}» с объяснениями правильных ответов.`}>
+ <div class="container quiz-shell"><a class="breadcrumb" href={withBase(lessonUrl(l))}>← Вернуться к теме</a><div class="lesson-badges"><span class:list={['subject-tag',l.subject]}>{subjects[l.subject].title}</span><span>{gradesLabel(l.grades)}</span><span>5 вопросов</span></div><h1>{l.title}</h1><p class="quiz-intro">Выбери один ответ в каждом вопросе. Объяснения появятся после проверки.</p><noscript><div class="notice">Для теста нужен JavaScript. <a href={withBase(lessonUrl(l))}>Теория этой темы</a> доступна и без него.</div></noscript>
+ <form id="quiz" autocomplete="off" data-quiz={JSON.stringify(quiz)} hidden>
+  {quiz.questions.map((q,i)=><fieldset data-question={q.id}><legend><span class="question-number">{i+1}<span class="sr-only">. </span></span>{q.prompt}</legend><div class="options">{q.options.map((o,j)=><label class="quiz-option"><input type="radio" name={q.id} value={o.id} required /><span class="option-letter" aria-hidden="true">{['А','Б','В','Г'][j]}</span><span>{o.text}</span></label>)}</div><div class="answer-explanation" data-feedback hidden></div></fieldset>)}
+  <div class="quiz-actions"><p id="answered" aria-live="polite">Отвечено 0 из 5</p><button class="button" type="submit" disabled>Проверить ответы →</button></div>
+ </form>
+ <section id="result" class="quiz-result" tabindex="-1" hidden aria-label="Результат теста"><p class="eyebrow">Твоя попытка</p><h2 data-score></h2><p data-result-message></p><p>Это самопроверка по одной теме, а не школьная оценка. Разбор ответов — выше.</p><div class="hero-actions"><button type="button" class="button" id="retry">Пройти ещё раз</button><a class="text-button" href={withBase(lessonUrl(l))}>Вернуться к теме →</a></div></section><a href={withBase('/tests/')} class="all-tests">← Каталог тестов</a>
+ </div><script>import '../../scripts/quiz';</script>
+</Base>

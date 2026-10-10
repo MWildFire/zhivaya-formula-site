@@ -1,0 +1,5 @@
+---
+import Base from '../layouts/Base.astro';
+import { withBase } from '../lib/paths';
+---
+<Base title="Страница не найдена" noindex><div class="container error-page"><p class="error-code" aria-hidden="true">404</p><p class="eyebrow">Кажется, мы свернули с тропы</p><h1>Такой страницы здесь нет</h1><p>Но вокруг ещё много интересного. Вернёмся к знакомым темам?</p><div class="hero-actions"><a class="button" href={withBase('/biology/')}>Биология →</a><a class="button secondary" href={withBase('/chemistry/')}>Химия →</a></div><a href={withBase('/')}>На главную</a></div></Base>

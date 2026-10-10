@@ -1,0 +1,141 @@
+{
+  "id": "quiz-C07",
+  "topicId": "C07",
+  "questions": [
+    {
+      "id": "C07-Q1",
+      "kind": "understanding",
+      "prompt": "Что означает индекс 2 в H₂O?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Две молекулы кислорода"
+        },
+        {
+          "id": "o2",
+          "text": "Два грамма воды"
+        },
+        {
+          "id": "o3",
+          "text": "Два атома кислорода"
+        },
+        {
+          "id": "o4",
+          "text": "Два атома водорода в молекуле"
+        }
+      ],
+      "correctOptionId": "o4",
+      "explanation": "Индекс стоит после H, поэтому относится к числу атомов водорода.",
+      "lessonAnchor": "что-говорит-формула",
+      "sourceUrl": "https://openstax.org/books/chemistry-2e/pages/2-4-chemical-formulas"
+    },
+    {
+      "id": "C07-Q2",
+      "kind": "understanding",
+      "prompt": "В каких единицах записывают относительную молекулярную массу?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Без единиц измерения"
+        },
+        {
+          "id": "o2",
+          "text": "В граммах"
+        },
+        {
+          "id": "o3",
+          "text": "В литрах"
+        },
+        {
+          "id": "o4",
+          "text": "В граммах на моль"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "Относительная масса — отношение масс, поэтому она безразмерна.",
+      "lessonAnchor": "относительная-масса",
+      "sourceUrl": "https://openstax.org/books/chemistry-2e/pages/3-1-formula-mass-and-the-mole-concept"
+    },
+    {
+      "id": "C07-Q3",
+      "kind": "application",
+      "prompt": "Чему равно Mᵣ(CO₂), если Aᵣ(C) = 12, Aᵣ(O) = 16?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "28"
+        },
+        {
+          "id": "o2",
+          "text": "44"
+        },
+        {
+          "id": "o3",
+          "text": "32"
+        },
+        {
+          "id": "o4",
+          "text": "60"
+        }
+      ],
+      "correctOptionId": "o2",
+      "explanation": "Один углерод и два кислорода дают 12 + 2 × 16 = 44.",
+      "lessonAnchor": "относительная-масса",
+      "sourceUrl": "https://openstax.org/books/chemistry-2e/pages/3-1-formula-mass-and-the-mole-concept"
+    },
+    {
+      "id": "C07-Q4",
+      "kind": "application",
+      "prompt": "Сколько атомов кислорода учитывают в одной формульной единице Ca(OH)₂?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "1"
+        },
+        {
+          "id": "o2",
+          "text": "3"
+        },
+        {
+          "id": "o3",
+          "text": "2"
+        },
+        {
+          "id": "o4",
+          "text": "4"
+        }
+      ],
+      "correctOptionId": "o3",
+      "explanation": "Индекс после скобки умножает и O, и H внутри группы OH.",
+      "lessonAnchor": "скобки-и-подсчёт-атомов",
+      "sourceUrl": "https://openstax.org/books/chemistry-2e/pages/2-4-chemical-formulas"
+    },
+    {
+      "id": "C07-Q5",
+      "kind": "misconception",
+      "prompt": "Можно ли для удобства заменить формулу H₂O на H₂O₂?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Да, это та же вода"
+        },
+        {
+          "id": "o2",
+          "text": "Да, если убрать коэффициент"
+        },
+        {
+          "id": "o3",
+          "text": "Да, индексы не несут информации"
+        },
+        {
+          "id": "o4",
+          "text": "Нет, изменится вещество"
+        }
+      ],
+      "correctOptionId": "o4",
+      "explanation": "Изменение индекса меняет состав: вода и пероксид водорода — разные вещества.",
+      "lessonAnchor": "что-говорит-формула",
+      "sourceUrl": "https://openstax.org/books/chemistry-2e/pages/2-4-chemical-formulas"
+    }
+  ]
+}

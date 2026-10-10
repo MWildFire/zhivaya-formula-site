@@ -1,0 +1,18 @@
+---
+import { subjects, lessonUrl, gradesLabel } from '../lib/catalog';
+import { withBase } from '../lib/paths';
+import type { Lesson } from '../lib/schema';
+interface Props { lesson: Lesson; test?: boolean; headingLevel?: 2 | 3 }
+const { lesson: l, test = false, headingLevel = 2 } = Astro.props;
+const Heading = headingLevel === 3 ? 'h3' : 'h2';
+---
+<article class:list={['topic-card', l.subject]} data-item data-subject={l.subject} data-grades={l.grades.join(',')} data-search={`${l.title} ${l.description}`}>
+ <div class="card-art" aria-hidden="true"><span class="topic-number">{String(l.order).padStart(2,'0')}</span><svg viewBox="0 0 160 100"><use href={withBase(`/images/icons.svg#${l.subject === 'biology' ? ['leaf','cell','sprout'][l.order % 3] : ['molecule','flask','atom'][l.order % 3]}`)} /></svg><span class="art-dot"></span></div>
+ <div class="card-body"><div class="card-meta"><span class="subject-tag">{subjects[l.subject].title}</span><span>{gradesLabel(l.grades)}</span></div>
+ <Heading class="card-title"><a href={test ? withBase(`/tests/${l.id}/`) : withBase(lessonUrl(l))}>{l.title}</a></Heading>
+ <p>{l.description}</p>
+ {l.introductory && <span class="intro-label">Знакомство с химией</span>}
+ <div class="card-bottom"><span class="duration">{test ? '5 вопросов' : `${l.readingMinutes} мин чтения`}</span><a class="card-link" href={test ? withBase(`/tests/${l.id}/`) : withBase(lessonUrl(l))}>{test ? 'Начать' : 'Изучить'} <span aria-hidden="true">↗</span></a></div>
+ {!test && <a class="secondary-link" href={withBase(`/tests/${l.id}/`)}>Пройти тест <span aria-hidden="true">→</span></a>}
+ </div>
+</article>

@@ -1,0 +1,141 @@
+{
+  "id": "quiz-C03",
+  "topicId": "C03",
+  "questions": [
+    {
+      "id": "C03-Q1",
+      "kind": "understanding",
+      "prompt": "Что отличает смесь от чистого вещества?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "У неё обязательно видны крупинки"
+        },
+        {
+          "id": "o2",
+          "text": "Она всегда жидкая"
+        },
+        {
+          "id": "o3",
+          "text": "Она состоит только из одного вещества"
+        },
+        {
+          "id": "o4",
+          "text": "Соотношение её компонентов может меняться"
+        }
+      ],
+      "correctOptionId": "o4",
+      "explanation": "В смеси есть несколько компонентов, и их доли могут различаться.",
+      "lessonAnchor": "вещество-или-смесь",
+      "sourceUrl": "https://openstax.org/books/chemistry-2e/pages/1-2-phases-and-classification-of-matter"
+    },
+    {
+      "id": "C03-Q2",
+      "kind": "understanding",
+      "prompt": "Как классифицируют прозрачный раствор соли в воде?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Как однородную смесь"
+        },
+        {
+          "id": "o2",
+          "text": "Как чистый химический элемент"
+        },
+        {
+          "id": "o3",
+          "text": "Как обязательно неоднородную смесь"
+        },
+        {
+          "id": "o4",
+          "text": "Как новое простое вещество"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "Растворённая соль распределена в воде; прозрачность не превращает смесь в чистое вещество.",
+      "lessonAnchor": "вещество-или-смесь",
+      "sourceUrl": "https://openstax.org/books/chemistry-2e/pages/11-1-the-dissolution-process"
+    },
+    {
+      "id": "C03-Q3",
+      "kind": "application",
+      "prompt": "Что задержит обычный бумажный фильтр в смеси песка, растворённой соли и воды?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Всю растворённую соль"
+        },
+        {
+          "id": "o2",
+          "text": "Песок"
+        },
+        {
+          "id": "o3",
+          "text": "Все молекулы воды"
+        },
+        {
+          "id": "o4",
+          "text": "Только растворитель"
+        }
+      ],
+      "correctOptionId": "o2",
+      "explanation": "Нерастворённые песчинки задерживаются, а раствор соли проходит.",
+      "lessonAnchor": "разобранный-пример",
+      "sourceUrl": "https://openstax.org/books/chemistry-2e/pages/1-2-phases-and-classification-of-matter"
+    },
+    {
+      "id": "C03-Q4",
+      "kind": "application",
+      "prompt": "Какой принцип подходит для разделения железных опилок и песка?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Одинаковый цвет"
+        },
+        {
+          "id": "o2",
+          "text": "Одинаковая форма частиц"
+        },
+        {
+          "id": "o3",
+          "text": "Различие магнитных свойств"
+        },
+        {
+          "id": "o4",
+          "text": "Одинаковая температура смеси"
+        }
+      ],
+      "correctOptionId": "o3",
+      "explanation": "Магнит притягивает железо, но не обычный песок: используется различие свойств.",
+      "lessonAnchor": "разделяем-по-свойствам",
+      "sourceUrl": "https://openstax.org/books/chemistry-2e/pages/1-2-phases-and-classification-of-matter"
+    },
+    {
+      "id": "C03-Q5",
+      "kind": "misconception",
+      "prompt": "После фильтрования раствор соли стал прозрачным. Соль исчезла?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Да, фильтр превращает соль в воду"
+        },
+        {
+          "id": "o2",
+          "text": "Да, всё прозрачное — чистая вода"
+        },
+        {
+          "id": "o3",
+          "text": "Да, её больше невозможно обнаружить"
+        },
+        {
+          "id": "o4",
+          "text": "Нет, она осталась растворённой"
+        }
+      ],
+      "correctOptionId": "o4",
+      "explanation": "Обычный фильтр не задерживает растворённые ионы соли.",
+      "lessonAnchor": "разобранный-пример",
+      "sourceUrl": "https://openstax.org/books/chemistry-2e/pages/11-1-the-dissolution-process"
+    }
+  ]
+}

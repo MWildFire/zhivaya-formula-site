@@ -1,0 +1,16 @@
+---
+import Base from '../layouts/Base.astro';
+import TopicCard from '../components/TopicCard.astro';
+import { allLessons, subjects } from '../lib/catalog';
+import { withBase } from '../lib/paths';
+const lessons=await allLessons();
+const featured=['B02','C05','B17'].map(id=>lessons.find(x=>x.data.id===id)!).filter(Boolean);
+const fact=lessons.find(x=>x.data.id==='C06')?.data.fact;
+---
+<Base>
+ <section class="container hero"><div class="hero-copy"><p class="eyebrow"><span class="small-star">✳</span> Для любопытных с 5 по 11 класс</p><h1>Мир интереснее,<br />когда <em>понимаешь.</em></h1><p class="hero-description">Почему листья зелёные, а железо ржавеет?<br class="desktop-break" /> Разбираемся в химии и биологии — по одной теме за раз.</p><div class="hero-actions"><a class="button" href="#subjects">Выбрать предмет <span aria-hidden="true">↓</span></a><a class="text-button" href={withBase('/tests/')}>Сразу к тестам <span aria-hidden="true">↗</span></a></div><div class="hero-stats"><span><strong>36</strong> понятных уроков</span><span><strong>180</strong> вопросов с разбором</span><span><strong>0</strong> спешки</span></div></div><div class="hero-visual"><img src={withBase('/images/hero.svg')} alt="" width="480" height="440" fetchpriority="high" /><span class="visual-note note-one">От атома… <span aria-hidden="true">✦</span></span><span class="visual-note note-two">…до целой экосистемы</span></div></section>
+ <section class="container section" id="subjects"><div class="section-heading"><div><p class="eyebrow">Два взгляда на один мир</p><h2>С чего начнём?</h2></div><p>Выбирай то, что интересно сейчас.</p></div><div class="subject-grid">{Object.entries(subjects).map(([key,s])=><a href={withBase(`/${key}/`)} class:list={['subject-panel',key]}><div><span class="subject-kicker">18 тем · теория и практика</span><h3>{s.title}</h3><p>{s.description}</p><span class="subject-cta">Открыть темы <span aria-hidden="true">↗</span></span></div><span class="subject-symbol" aria-hidden="true">{s.symbol}</span></a>)}</div></section>
+ <section class="container section"><div class="section-heading"><div><p class="eyebrow">Первая маленькая победа</p><h2>Попробуй одну тему</h2></div><a class="text-button" href={withBase('/tests/')}>Все тесты <span aria-hidden="true">↗</span></a></div><div class="card-grid">{featured.map(l=><TopicCard lesson={l.data} test headingLevel={3} />)}</div></section>
+ {fact && <section class="container section"><div class="fact-feature"><span class="fact-star" aria-hidden="true">✳</span><div><p class="eyebrow">Минута удивления</p><h2>{fact.title}</h2><p>{fact.text}</p><a class="text-button" href={withBase('/facts/')}>Ещё 35 поводов удивиться <span aria-hidden="true">↗</span></a></div><span class="fact-decoration" aria-hidden="true">C<small>6</small></span></div></section>}
+ <section class="container how-section"><h2 class="sr-only">Как заниматься</h2><p class="eyebrow">В твоём темпе</p><div class="how-grid"><div><span>01</span><h3>Разберись</h3><p>Короткая теория, понятный пример и главное в конце.</p></div><div><span>02</span><h3>Попробуй</h3><p>Пять вопросов без таймера. Можно спокойно подумать.</p></div><div><span>03</span><h3>Пойми почему</h3><p>У каждого ответа есть объяснение. Ошибка — повод разобраться.</p></div></div></section>
+</Base>

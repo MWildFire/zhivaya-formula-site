@@ -1,0 +1,141 @@
+{
+  "id": "quiz-C01",
+  "topicId": "C01",
+  "questions": [
+    {
+      "id": "C01-Q1",
+      "kind": "understanding",
+      "prompt": "Что в паре «железный гвоздь — железо» является телом?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Железо"
+        },
+        {
+          "id": "o2",
+          "text": "Гвоздь"
+        },
+        {
+          "id": "o3",
+          "text": "Твёрдость"
+        },
+        {
+          "id": "o4",
+          "text": "Плотность"
+        }
+      ],
+      "correctOptionId": "o2",
+      "explanation": "Гвоздь — отдельный предмет, а железо — вещество, которое входит в его состав.",
+      "lessonAnchor": "тело-и-вещество",
+      "sourceUrl": "https://openstax.org/books/chemistry-2e/pages/1-1-chemistry-in-context"
+    },
+    {
+      "id": "C01-Q2",
+      "kind": "understanding",
+      "prompt": "Какое свойство связывает массу вещества с его объёмом?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Цвет"
+        },
+        {
+          "id": "o2",
+          "text": "Прозрачность"
+        },
+        {
+          "id": "o3",
+          "text": "Плотность"
+        },
+        {
+          "id": "o4",
+          "text": "Форма"
+        }
+      ],
+      "correctOptionId": "o3",
+      "explanation": "Плотность показывает, какая масса приходится на единицу объёма.",
+      "lessonAnchor": "как-описывают-свойства",
+      "sourceUrl": "https://openstax.org/books/chemistry-2e/pages/1-3-physical-and-chemical-properties"
+    },
+    {
+      "id": "C01-Q3",
+      "kind": "application",
+      "prompt": "Два кубика одинакового объёма имеют разную массу. Что можно сравнить?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Только их цвет"
+        },
+        {
+          "id": "o2",
+          "text": "Число углов"
+        },
+        {
+          "id": "o3",
+          "text": "Их температуру кипения"
+        },
+        {
+          "id": "o4",
+          "text": "Их средние плотности"
+        }
+      ],
+      "correctOptionId": "o4",
+      "explanation": "При одинаковом объёме большая масса означает большую среднюю плотность.",
+      "lessonAnchor": "разобранный-пример",
+      "sourceUrl": "https://openstax.org/books/chemistry-2e/pages/1-3-physical-and-chemical-properties"
+    },
+    {
+      "id": "C01-Q4",
+      "kind": "application",
+      "prompt": "В шкафу обнаружена бутылка с неизвестной жидкостью. Как поступить?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Не открывать и сообщить взрослому"
+        },
+        {
+          "id": "o2",
+          "text": "Попробовать каплю"
+        },
+        {
+          "id": "o3",
+          "text": "Понюхать прямо из горлышка"
+        },
+        {
+          "id": "o4",
+          "text": "Смешать с водой для проверки"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "Безопасный выбор — не контактировать с неизвестным содержимым и сообщить ответственному взрослому.",
+      "lessonAnchor": "безопасное-наблюдение",
+      "sourceUrl": "https://openstax.org/books/chemistry-2e/pages/1-3-physical-and-chemical-properties"
+    },
+    {
+      "id": "C01-Q5",
+      "kind": "misconception",
+      "prompt": "Прозрачная жидкость обязательно является безопасной водой?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Да, если она бесцветная"
+        },
+        {
+          "id": "o2",
+          "text": "Нет, прозрачность не определяет состав"
+        },
+        {
+          "id": "o3",
+          "text": "Да, если нет осадка"
+        },
+        {
+          "id": "o4",
+          "text": "Да, если бутылка знакомая"
+        }
+      ],
+      "correctOptionId": "o2",
+      "explanation": "Разные жидкости могут быть прозрачными. По одному внешнему признаку нельзя установить состав или безопасность.",
+      "lessonAnchor": "как-описывают-свойства",
+      "sourceUrl": "https://openstax.org/books/chemistry-2e/pages/1-3-physical-and-chemical-properties"
+    }
+  ]
+}

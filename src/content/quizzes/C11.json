@@ -1,0 +1,141 @@
+{
+  "id": "quiz-C11",
+  "topicId": "C11",
+  "questions": [
+    {
+      "id": "C11-Q1",
+      "kind": "understanding",
+      "prompt": "Какая формула соответствует оксиду в этом уроке?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "NaOH"
+        },
+        {
+          "id": "o2",
+          "text": "H₂SO₄"
+        },
+        {
+          "id": "o3",
+          "text": "CaCO₃"
+        },
+        {
+          "id": "o4",
+          "text": "MgO"
+        }
+      ],
+      "correctOptionId": "o4",
+      "explanation": "MgO состоит из двух элементов, один из которых кислород в степени окисления −2.",
+      "lessonAnchor": "оксиды-и-кислоты",
+      "sourceUrl": "https://openstax.org/books/chemistry-2e/pages/2-7-chemical-nomenclature"
+    },
+    {
+      "id": "C11-Q2",
+      "kind": "understanding",
+      "prompt": "Что называют щёлочью?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Растворимое в воде основание"
+        },
+        {
+          "id": "o2",
+          "text": "Любое нерастворимое основание"
+        },
+        {
+          "id": "o3",
+          "text": "Любую хорошо растворимую соль"
+        },
+        {
+          "id": "o4",
+          "text": "Любое соединение, содержащее группу OH"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "Щёлочи — подгруппа оснований, растворимых в воде.",
+      "lessonAnchor": "основания-и-соли",
+      "sourceUrl": "https://openstax.org/books/chemistry-2e/pages/4-2-classifying-chemical-reactions"
+    },
+    {
+      "id": "C11-Q3",
+      "kind": "application",
+      "prompt": "К какому классу относится CaCO₃?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "К щелочам"
+        },
+        {
+          "id": "o2",
+          "text": "К солям"
+        },
+        {
+          "id": "o3",
+          "text": "К простым веществам"
+        },
+        {
+          "id": "o4",
+          "text": "К оксидам"
+        }
+      ],
+      "correctOptionId": "o2",
+      "explanation": "CaCO₃ содержит катион кальция и карбонат-анион — кислотный остаток.",
+      "lessonAnchor": "основания-и-соли",
+      "sourceUrl": "https://openstax.org/books/chemistry-2e/pages/2-7-chemical-nomenclature"
+    },
+    {
+      "id": "C11-Q4",
+      "kind": "application",
+      "prompt": "Какие продукты образуются в HCl + NaOH → … ?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "NaCl и H₂"
+        },
+        {
+          "id": "o2",
+          "text": "NaCl и O₂"
+        },
+        {
+          "id": "o3",
+          "text": "NaCl и H₂O"
+        },
+        {
+          "id": "o4",
+          "text": "Na₂O и HCl"
+        }
+      ],
+      "correctOptionId": "o3",
+      "explanation": "В данном примере нейтрализации получаются соль NaCl и вода.",
+      "lessonAnchor": "связи-между-классами",
+      "sourceUrl": "https://openstax.org/books/chemistry-2e/pages/4-2-classifying-chemical-reactions"
+    },
+    {
+      "id": "C11-Q5",
+      "kind": "misconception",
+      "prompt": "Любое вещество, содержащее водород, является кислотой?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Да, достаточно любого атома H в формуле"
+        },
+        {
+          "id": "o2",
+          "text": "Да, если соединение растворено в воде"
+        },
+        {
+          "id": "o3",
+          "text": "Нет, кислотами называют только соединения, в которых нет кислорода"
+        },
+        {
+          "id": "o4",
+          "text": "Нет, например CH₄ не относят к кислотам в этой классификации"
+        }
+      ],
+      "correctOptionId": "o4",
+      "explanation": "Кислотность нельзя определять только наличием водорода; важны состав и поведение вещества.",
+      "lessonAnchor": "оксиды-и-кислоты",
+      "sourceUrl": "https://openstax.org/books/chemistry-2e/pages/4-2-classifying-chemical-reactions"
+    }
+  ]
+}
